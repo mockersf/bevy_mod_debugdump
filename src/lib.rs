@@ -126,7 +126,7 @@ pub fn get_render_schedule(app: &mut App) -> String {
     schedule_graph::schedule_graph_dot_sub_app_styled(
         app,
         RenderApp,
-        &[&RenderStage::Extract],
+        &[],
         &schedule_graph::ScheduleGraphStyle::default(),
     )
 }
